@@ -25,7 +25,6 @@ class Student extends Component{
       {
             return <h1>Hello {this.state.name} your roll Number is {this.state.roll}</h1>
       }
-      
 }
 
 
