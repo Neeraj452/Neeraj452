@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ClassComponent  from "./ClassComponent";
-ReactDOM.render( <ClassComponent />, document.getElementById("root")); 
+import Lists from './Lists';
+
+ReactDOM.render(<Lists/>, document.getElementById("root")); 
