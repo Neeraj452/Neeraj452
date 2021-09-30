@@ -7,6 +7,7 @@ export default class ApiClass extends Component {
                         apidata:[],
             }
       }
+//             this come to change
       callApi = () =>{
                   console.log('API Called');
             fetch('https://api.nationalize.io/?name=nathaniel').then((data)=>{
